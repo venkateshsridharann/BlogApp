@@ -1,0 +1,53 @@
+i.icons{
+    font-size: 2em;
+}
+
+body{
+    /*background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/GfRLKaE/videoblocks-abstract-red-corporate-background_bwbr4mpil_thumbnail-full01.png");*/
+    color:white;
+       margin-top: 4.0em;
+       margin-left: 6.0em;
+       
+}
+.inline
+{
+    display: inline;
+}
+.card
+{
+    width: 40rem;
+    /*text-align:center;*/
+    display:inline-block;
+}
+.abs
+{position: relative}
+
+.button.mini.green
+{
+    position: absolute;
+    right:0;
+    bottom:3px;    
+}
+.container.main
+{
+    margin-top: 7.0em;
+}
+
+h1{
+    text-align: center;
+    margin-bottom : 2em;
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
