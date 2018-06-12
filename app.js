@@ -8,7 +8,7 @@ var app        = express();
 
 mongoose.connect("mongodb://venky:venky1993@ds139920.mlab.com:39920/rest_blog_app");
 //mongodb://<dbuser>:<dbpassword>@ds139920.mlab.com:39920/rest_blog_app
-//venky:lenovoG5701@1@
+//venky:venky1993
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
