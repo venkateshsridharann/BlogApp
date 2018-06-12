@@ -5,10 +5,9 @@ var mongoose    = require("mongoose");
 var methodOverride  = require("method-override");
 var app        = express();
 
-
+// mongoose.connect("mongodb://localhost/rest_blog_app");
 mongoose.connect("mongodb://venky:venky1993@ds139920.mlab.com:39920/rest_blog_app");
-//mongodb://<dbuser>:<dbpassword>@ds139920.mlab.com:39920/rest_blog_app
-//venky:venky1993
+
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
