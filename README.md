@@ -34,7 +34,7 @@ This app was built using Javascript, NodeJS, Express.JS, Embedded JavaScript (EJ
 
 ## Deployment
 
-App was deployed on Heroku, click link to go to page
+App was deployed on Heroku, click link on top to view page
 
 ## Built With
 
